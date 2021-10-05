@@ -146,7 +146,7 @@ $('.board button').on('click', function(){
   if( colorCheckRows() || colorCheckCols() || colorCheckDiagonal() ){
     $('h1').text( gameName + " Wins!");
     $('h1').css('color', gameColor);
-    $('h3').text('Press button to start new game');
+    $('h3').text('Press the button to start a new game');
 
     gamePlayer = 3; // set to end the game
 

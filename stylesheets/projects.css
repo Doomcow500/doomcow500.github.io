@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  background-color: #444444;
+/*  background-color: #444444;*/
   color: #ddd;
   font-size: 16px;
   font-family: monospace;
@@ -114,10 +114,16 @@ body {
 .topic_header {
   color: #7cfc11;
   margin-top: 1.5em;
+  margin-left: 1.5em;
+}
+
+.topic_header1 {
+  color: #ff0096;
+  margin-top: 1.5em;
 }
 
 .topic_text {
-  margin-left: 1.75em;
+  margin-left: 2.25em;
   margin-top: 0.125em;
   margin-right: 1.75em;
 }
@@ -234,7 +240,7 @@ a:hover {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #444444;
+  background-color: transparent;
   color: #7cfc11;
   padding: 16px;
   font-size: 16px;

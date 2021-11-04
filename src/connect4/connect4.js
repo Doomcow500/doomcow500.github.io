@@ -1,7 +1,7 @@
 
 // 2 Players information
-var player1 = "Blue";
-var player2 = "Red";
+var player1 = "BLUE";
+var player2 = "RED";
 var player1Color = 'rgb(45, 146, 247)'; // blue color for player1
 var player2Color = 'rgb(237, 45, 73)';  // red color for player2
 var boardColor = 'rgb(189, 189, 189)';  // game board color
@@ -34,7 +34,7 @@ function fadeChipColor(row, col, color){
   chip.show(1000);
 };
 
-// get the current chip's color by column and  row
+// return the current chip's color by column and  row index
 function returnColor(row, col){
 
   return $('.board tr').eq(row).find('td').eq(col).find('button').css('background-color');
@@ -144,7 +144,7 @@ $('.board button').on('click', function(){
 
   // check 4 chips in a row
   if( colorCheckRows() || colorCheckCols() || colorCheckDiagonal() ){
-    $('h1').text( gameName + " Wins!");
+    $('h1').text( gameName + " Wins !");
     $('h1').css('color', gameColor);
     $('h3').text('Press the button to start a new game');
 

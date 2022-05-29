@@ -1,111 +1,202 @@
 <!DOCTYPE html>
-<div class="bg"></div>
 <html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="assets/ff.ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Doomcow500</title>
+    <link rel="stylesheet" href="stylesheet/2.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <ul class="link-group">
+        <li class="link active"><a class="nvtxt" href="#">home</a></li>
+        <li class="link"><a class="nvtxt" href="#">projects</a></li>
+        <li class="link"><a class="nvtxt" href="#">about</a></li>
+      </ul>
+    </nav>
 
-<head>
-  <script async defer data-website-id="9c4ce038-dee9-489c-8585-8e34fac56aa2" src="https://dot.up.railway.app/umami.js"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Doomcow500</title>
-  <meta name="description" content="Python and javascript programmer from the U.K." />
-  <meta name="keywords" content="Doomcow500" />
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
-  <link rel="stylesheet" type="text/css" href="stylesheets/background.css" />
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <script src="https://kit.fontawesome.com/1a48924413.js" crossorigin="anonymous"></script>
-</head>
-<div class="bg"></div>
+    <!-- home section -->
 
-<body>
-  <header id="header">
-    <div id="head">Doomcow500<span class="cursor">_</span></div>
-  </header>
+    <section class="home-section active">
+      <h1 class="hero-heading">
+        Howdy, <br />
+        I make things
+      </h1>
+      <img src="assets/favicon.ico" class="home-img" alt="" />
+    </section>
 
-  <main id="content">
-    <div class="container">
-      <div id="bar">
-        <div class="icon icon-red"></div>
-        <div class="icon icon-yellow"></div>
-        <div class="icon icon-green"></div>
-      </div>
-
-      <div id="screen">
-        <div id="innercontent">
-          <div id="contentheader">Intro:</div>
-          <div class="topic_header_top">About Me!</div>
-          <div class="topic_text">
-            Happy new years! <br />
-            Hi            <br />
-            I'm a programmer from the U.K.
-          </div>
-
-          <div class="topic_header">What i'm doing:</div>
-            <div class="topic_text">
-              I'm currently working on a web based proxy called <a href="https://inertia.up.railway.app">Inertia</a>!
+    <section class="project-section">
+      <div class="project-container">
+        <div class="project-card">
+          <div class="project-box">
+            <div class="project-content">
+              <h2><img src="img/html.png" class="project-img" /></h2>
+              <h3>Inertia</h3>
+              <p>
+                An
+                <a
+                  class="user-github"
+                  href="https://github.com/inertia-unblocker"
+                  >open source</a
+                >
+                web proxy, based on
+                <a
+                  class="user-github"
+                  href="https://github.com/titaniumnetworkdev/corrosion"
+                  >Corrosion</a
+                >. Features custom addons like google search and a redesigned
+                frontend. Built in collaboration with
+                <a class="user-github" href="https://github.com/thealphareturns"
+                  >TheAlphaReturns</a
+                >
+              </p>
+              <a href="https://inertia-unblocker.vercel.app" class="project-link"
+                >See Live</a
+              >
             </div>
-          <div id="contentheader"> Other:</div>
-          <div class="topic_header">PROJECTS</div>
-          <div class="topic_text">
-            Some of my projects I haven been working on can be found
-            <a href="projects.html">
-              Here!</a>
           </div>
-          <div id="contentheader">Languages & Tools:</div>
-          <div class="topic_header_top">Frontend & Backend</div>
+        </div>
+        <div class="project-card">
+          <div class="project-box">
+            <div class="project-content">
+              <h2><img src="img/js.png" class="project-img" /></h2>
+              <h3>Connect 4</h3>
+              <p>
+                An
+                <a
+                  class="user-github"
+                  href="https://github.com/Doomcow500/doomcow500.github.io/blob/main/connect4.html"
+                  >open source</a
+                >
+                browser based version of Connect 4, built using jQuery
+              </p>
+              <a href="connect4" class="project-link">See Live</a>
+            </div>
+          </div>
+        </div>
 
-          <div class="topic_text">
-            <img align="left" id="space" alt="HTML5" width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-            <img align="left" id="space" alt="CSS3" width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-              <img align="left" id="space" alt="Node.js" width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
+        <div class="project-card">
+          <div class="project-box">
+            <div class="project-content">
+              <h2><img src="img/python.png" class="project-img" /></h2>
+              <h3>Sudoku Solver</h3>
+              <p>
+                A Python script to take all of the digits in a sudoku grid and
+                then solve it using recursion
+              </p>
+              <a href="#" class="project-link">Github</a>
+            </div>
           </div>
-          <br />
-          <div class="topic_header">Programming Languages</div>
-          <div class="topic_text">
-            <img align="left" id="space" alt="JavaScript" width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-            <img align="left" id="space" alt="Python" width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
-            <br />
-          </div>
-          <div class="topic_header">Other</div>
-          <div class="topic_text">
-            <img align="left" id="space" alt="Git" width="30px"
-              src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" />
-            <img align="left" id="space" alt="Visual Studio Code" width="26px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
-            <img align="left" id="space" alt="GitHub" width="26px"
-              src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
-            <img align="left" id="space" alt="Terminal" width="26px"
-              src="https://raw.githubusercontent.com/odb/official-bash-logo/master/assets/Logos/Icons/PNG/512x512.png" />
-          </div>
+        </div>
       </div>
-    </div>
-    </div>
-  </main>
-  <!--Footer Section-->
-  <footer id="footer">
-    <div class="wrapper">
-      <div class="social-icons">
-        <a href="https://github.com/Doomcow500" target="_blank" rel="noopener" aria-label="Github"><i
-            class="fa fa-github fa-lg" aria-hidden="true"></i></a>
-        <a href="https://stackoverflow.com/users/16527863/doomcow500?tab=profile" target="_blank" rel="noopener"
-          aria-label="Stackoverflow"><i class="fa fa-stack-overflow fa-lg" aria-hidden="true"></i></a>
-        <a href="https://twitch.tv/doomcow500" target="_blank" rel="noopener" aria-label="Twitch"><i
-            class="fa fa-twitch fa-lg"></i></a>
-      </div>
-    </div>
-  </footer>
-  <div class="dropdown">
-    <button class="dropbtn">☰</button>
-    <div class="dropdown-content">
-      <a href="connect4.html">Connect 4</a>
-      <a href="projects.html">Projects</a>
-    </div>
-  </div>
-</body>
+    </section>
 
+
+    <!-- about section -->
+    <section class="about-section">
+      <div class="about">
+        <div class="about-img-container">
+          <img src="img/mewtwox.png" class="about-img" alt="" />
+          <!--<button class="download-cv-btn">download cv</button>-->
+        </div>
+        <p class="about-info">
+          Hiya, i make (somewhat) interesting things. 
+          I'm a contributor of interesting projects like Inertia. 
+          I love creating things that make a difference for users
+          I'm more than happy to talk about my projects, contribute and help
+        </p>
+      </div>
+
+      <!-- skills -->
+      <div class="skill-section">
+        <h1 class="heading">skills</h1>
+        <div class="skills-container">
+          <div class="skill-card">
+            <img src="img/html.png" class="skill-img" alt="" />
+            <!--<div class="skill-level">98%</div>-->
+            <h1 class="skill-name">HTML</h1>
+            <!--<p class="skill-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                sapiente.
+              </p>-->
+          </div>
+          <div class="skill-card">
+            <img src="img/css.png" class="skill-img" alt="" />
+            <!--<div class="skill-level">98%</div>-->
+            <h1 class="skill-name">CSS</h1>
+            <!--<p class="skill-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                sapiente.
+              </p>-->
+          </div>
+          <div class="skill-card">
+            <img src="img/js.png" class="skill-img" alt="" />
+            <!--<div class="skill-level">98%</div>-->
+            <h1 class="skill-name">JavaScript</h1>
+            <!--<p class="skill-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                sapiente.
+              </p>-->
+          </div>
+          <div class="skill-card">
+            <img src="img/nodejs.png" class="skill-img" alt="" />
+            <!--<div class="skill-level">98%</div>-->
+            <h1 class="skill-name">NodeJs</h1>
+            <!--<p class="skill-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                sapiente.
+              </p>-->
+          </div>
+          <div class="skill-card">
+            <img src="img/python.png" class="skill-img" alt="" />
+            <!--<div class="skill-level">98%</div>-->
+            <h1 class="skill-name">Python</h1>
+            <!--<p class="skill-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                sapiente.
+              </p>-->
+          </div>
+          <div class="skill-card">
+            <img src="img/reactjs.png" class="skill-img" alt="" />
+            <!--<div class="skill-level">98%</div>-->
+            <h1 class="skill-name">React</h1>
+            <!--<p class="skill-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                sapiente.
+              </p>-->
+          </div>
+          <!--
+          <div class="skill-card" style="--bg: #d47ae8">
+            <p class="skill">HTML</p>
+          </div>
+          <div class="skill-card" style="--bg: #f4beee">
+            <p class="skill">CSS</p>
+          </div>
+          <div class="skill-card" style="--bg: #a8ece7">
+            <p class="skill">JavaScript</p>
+          </div>
+          <div class="skill-card" style="--bg: #fdff8f">
+            <p class="skill">Firebase</p>
+          </div>
+          <div class="skill-card" style="--bg: #a8ece7">
+            <p class="skill">NodeJS</p>
+          </div>
+          <div class="skill-card" style="--bg: #d47ae8">
+            <p class="skill">Python</p>
+          </div>
+          <div class="skill-card" style="--bg: #fdff8f">
+            <p class="skill">Shell</p>
+          </div>
+          <div class="skill-card" style="--bg: #f4beee">
+            <p class="skill">Many More...</p>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <script src="src/app.js"></script>
+  </body>
 </html>

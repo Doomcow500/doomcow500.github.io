@@ -6,7 +6,7 @@ body {
   display: block;
   margin: auto;
   min-height: 100vh;
-  background: #191919;
+  background: #1a1a1a/*#191919*/;
   font-family: sans-serif;
 }
 
